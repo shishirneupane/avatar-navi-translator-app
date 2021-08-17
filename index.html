@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Avatar - Naʼvi translator app - mark seven</title>
+  <link rel="stylesheet" href="/style.css">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
+</head>
+
+<body>
+  <nav class="navigation">
+    <h1>Naʼvi Translator 👽</h1>
+    <a title="Source code for this app" href="https://github.com/shishirneupane/avatar-navi-translator-app">
+      <i class="fab fa-github"></i>
+    </a>
+  </nav>
+
+  <section class="container">
+    <textarea class="text-box" id="txt-input" placeholder="Type your sentence here to translate it to Naʼvi language of the Pandoran creatures from 'Avatar' movie."></textarea>
+    <button id="btn-translate">Translate to Naʼvi 👽</button>
+    <div class="text-box" id="output-box">
+      <p>The translation will appear here</p>
+    </div>
+  </section>
+
+  <footer>
+    <div id="about">About</div>
+    <p>
+      Are you a fan of the movie 'Avatar'?
+      Did you know that the characters speak a language called Naʼvi?
+      Use this translator to convert your text from English to the Naʼvi language.
+      <br>
+      <strong>Note: Only 5 API calls per hour is available.</strong>
+    </p>
+  </footer>
+  
+  <script src="/app.js" type="text/javascript"></script>
+</body>
+</html>
