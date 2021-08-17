@@ -10,3 +10,4 @@ A translation web app that will translate your sentences into the Naʼvi languag
 
 ## Screenshots:
 
+![image](https://user-images.githubusercontent.com/58262449/129741637-5e183be4-5143-438c-955f-7dd71873335e.png)
